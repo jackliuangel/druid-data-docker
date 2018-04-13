@@ -46,6 +46,6 @@ RUN tar xvf conf.tar && cp -r conf /home/imply-2.5.4/
 
 WORKDIR /home/imply-2.5.4
 
-#ENTRYPOINT exec bin/supervise -c conf/supervise/data.conf
+ENTRYPOINT exec bin/supervise -c conf/supervise/data.conf
 EXPOSE 8082 9095 8083 8091
 
