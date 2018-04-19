@@ -1,6 +1,6 @@
 FROM ubuntu:14.04
 
-MAINTAINER  Jack Liu <congliulyc@gmail.com>
+MAINTAINER  Jack Y C Liu <congliulyc@gmail.com>
 
 # Java 8
 RUN apt-get update \
